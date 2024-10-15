@@ -8,45 +8,53 @@
   
   <title>Frontend Mentor | QR code component</title>
 <style>
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
   body{
+    
     background-color:   hsl(212, 45%, 89%);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    top: 70px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
-
+    font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   }
+
   .container{
     height: 445px;
-    width: 270px;
+    width: 280px;
     background-color:  hsl(0, 0%, 100%);
     border-radius: 19px;
+    position: relative;
+    top: 80px;
+    left: 600px;
+ 
   
     
   }
   .image img{
-    width: 240px;
-    height: 240px;
+    width: 244px;
+    height: 244px;
     position: relative;
     top: 10px;
-    left:14px;
+    left:19px;
     border-radius: 13px;
   }
   .text{
-    font-size: 14px;
+    font-size: 15px;
     text-align: center;
     padding-top: 10px;
   }
   .text-1{
-    font-size: 18px;text-align: center;
-    padding-top: 10px
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 1.2;
+    color: hsl(216, 15%, 48%);
+  
   }
 .attribution{
  position: relative;
- top: 40px;
+ top: 70px;
+ text-align: center;
 }
 .attribution a{
   text-decoration: none;
@@ -64,7 +72,7 @@
     <h2>improve your frontend skills by building projects</h2>
   </div>
   <div class="text-1">
-    <p>scan the qr code and join the class my nigga</p>
+    <p>scan the QR code to visit Frontend <br> Mentor and Take your coding skills <br> to next level </p>
   </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
